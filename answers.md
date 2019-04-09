@@ -1,0 +1,2 @@
+1. All three games have the goal of emptying the deck and board. The way you can remove cards from the board is different between each game. They also all have different sizes boards, but appear to use the same deck of 52 cards.
+2. ElevensBoard extends Board which means it inherits the variables it intializes for it to change.
