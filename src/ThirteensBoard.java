@@ -22,6 +22,8 @@ public class ThirteensBoard extends Board {
 	 */
 	private static final String[] SUITS =
 		{"spades", "hearts", "diamonds", "clubs"};
+	
+	private static final int target = 13;
 
 	/**
 	 * The values of the cards for this game to be sent to the deck.
@@ -89,7 +91,7 @@ public class ThirteensBoard extends Board {
 			int k1 = selectedCards.get(sk1).intValue();
 			for (int sk2 = sk1 + 1; sk2 < selectedCards.size(); sk2++) {
 				int k2 = selectedCards.get(sk2).intValue();
-				if (cardAt(k1).pointValue() + cardAt(k2).pointValue() == 13) {
+				if (cardAt(k1).pointValue() + cardAt(k2).pointValue() == target) {
 					return true;
 				}
 			}
