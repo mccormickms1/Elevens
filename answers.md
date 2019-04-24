@@ -1,0 +1,3 @@
+1. I observed anywhere from 0% to 10%, to once even 20%. These percentages are not consistend.
+2. These percentages were more consistent, but still not perfect. They varied anywhere from 6% to 13%.
+3. It depends what you mean by consistent. If you play one million games, the percentage won can still vary by 0.1% every now and then. At ten thousand games, the difference between the highest percentages and lowest ones is less than 1%.
